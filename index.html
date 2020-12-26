@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Chatbot
+        </title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style_light.css" type="text/css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+
+    <body>
+        <div>
+            <form class="username">
+                <label id="username">
+                    Please enter your username:
+                    <input type="text" maxlength="12" pattern="[a-zA-Z0-9]"/>
+                    <button type="submit">Enter</button>
+                </label>
+            </form>
+        </div>
+        <!--  <button type="button" id="lightSwitch">Light Switch</button>  -->
+        <div id="chatWindow">
+            <div id="messages">
+                <!--  <p class="botMessage animate__animated animate__headShake" style="width: 1em;">...</p>  -->
+            </div>
+            <div id="inputArea">
+                <form class="chat">
+                    <label id="userInput">
+                        <textarea rows="4" cols="50"></textarea>
+                        <button type="submit" id="send">Send</button>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

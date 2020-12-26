@@ -1,0 +1,10 @@
+- add username field to chatwindow
+- add welcome message after username was entered
+- add hover/click styling for send-button
+- adjust bubble size to "..."
+- add animation to "..."
+- format timestamp
+- add answer options
+- add light switch
+- adjust for smaller devices
+- fix delay bug
